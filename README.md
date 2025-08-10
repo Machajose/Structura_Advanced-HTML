@@ -28,8 +28,6 @@ The page contains:
 
 ---
 
-## 🖼️ Preview
-*(Insert screenshot here if available)*
 
 ---
 
