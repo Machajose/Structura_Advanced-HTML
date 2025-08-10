@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width-device-width, initial-scale=1.0">
+    <meta name="description" content="A simple form to collect user data">
+    <title>Formify</title>
+    </head>
+    <header>
+        <h1>Structura</h1>
+        <p>Here we understand advanced html aspects such as forms</p>
+    </header>
+    <main>
+    <!-- Section 1; Forms and Input types -->
+    <section id="forms">
+        <h2>Forms and Input types</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="dob">Date Of Birth:</label>
+            <input type="dob" id="dob" name="dob" required><br><br>
+            <label for="color">Favourite color:</label>
+            <input type="color" id="color" name="color"><br><br>
+            <label for="range">Satisfaction level:</label>
+            <input type="range" id="range" name="range" min="0" max="10"><br><br>
+            <button type="submit">Submit</button>
+            </form>
+    </section>
+    <section id="Media">
+    <!--Section: Media and Interactivity-->
+     <h2>Media and Interactivity</h2>
+     <h3>Images</h3>
+     <p>Let us insert and image:</p>
+     <img src="https://images.pexels.com/photos/12521170/pexels-photo-12521170.png" alt="A fish in the 90s" width="300" height="200">
+     <h3>Audio</h3>
+     <p>Let us Insert an audio</p>
+     <audio controls>
+        <source src="Fresh Focus.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+     </audio>
+     <h3>Video</h3>
+     <p>Let us insert a Video:</p>
+     <video controls width="600" height="400">
+        <source src="4434242-uhd_2160_3840_24fps.mp4" type="video/mp4">
+        Your browser does not support the video element.
+     </video>
+</section>
+<section id="Lists">
+    <!--Section: Lists-->
+    <h2>Lists</h2>
+    <h3>Unordered List</h3>
+    <ul>
+        <li>Apples</li>
+        <li>Bananas</li>
+        <li>Mangoes</li>
+    </ul>
+    <h3>Ordered List</h3>
+    <ol>
+        <li>Cups</li>
+        <li>Plates</li>
+        <li>Spoons</li>
+    </ol>
+</section>
+<section id="Tables">
+    <Table>
+        <h2>Table Example</h2>
+        <table border="1" callpadding="10" cellspacing="0">
+        
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Macharia</td>
+                    <td>30</td>
+                    <td>New York</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>25</td>
+                    <td>Nairobi</td>
+                </tr>
+                <tr>
+                    <td>Sam Brown</td>
+                    <td>22</td>
+                    <td>Chicago</td>
+                </tr>
+            </tbody>
+    </Table>
+</section>
+<section id="forms with attributes">
+    <!--FORMS WITH ATTRIBUTES-->
+    <h2>Forms with Attributes</h2>
+    <form>
+        <label for="username">Username:</label>
+        <input type="test" id="username" placeholder="Enter Your name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter Your email" required><br><br>
+        <label for="readonly">Readonly Field</label>
+        <input type="text" id="readonly" value="This field is read-only" readonly><br><br>
+        
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</section>
+    </main>
+</html>
